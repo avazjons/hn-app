@@ -1,0 +1,1 @@
+export const FlexContainer = ({ children }) => <div className="flex-container">{children}</div>

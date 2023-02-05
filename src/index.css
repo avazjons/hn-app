@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: #f0f0f0;
+}
+.Wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 40px;
+}
+.Container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.Container h2,
+.Container h3 {
+  margin-bottom: 0;
+  text-align: center;
+}
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 3%), 0 1px 6px -1px rgb(0 0 0 / 2%),
+    0 2px 4px 0 rgb(0 0 0 / 2%);
+}
+.ant-btn-default.btn-update {
+  margin: 0 0 10px auto;
+  display: block;
+}
+.flex-container {
+  display: flex;
+  gap: 10px;
+}
+.ant-card-body .flex-container span:last-child {margin-left: auto;}

@@ -1,0 +1,1 @@
+export const Wrapper = ({ children }) => <div className="Wrapper">{children}</div>
